@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DREAMY DESSERT</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+     <!-- Font awesome cdn link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<!-- custome css file -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header section start -->
+   <header>
+<a href="#" class="logo"><i class="fas fa-utensils"></i>DD</a>
+<nav class="navbar">
+    <a class="active" href="#home">home</a>
+    <a href="#dishes">dishes</a>
+    <a href="#about">about</a>
+    <a href="#review">review</a>
+    <a href="#order">order</a>
+</nav>
+<div class="icons">
+<i class="fas fa-bars" id="menu-bars"></i>
+<i class="fas fa-search" id="search-icon"></i>
+<a href="#" class="fas fa-heart"></a>
+<a href="add_to_cart.html" class="fas fa-shopping-cart"></a>
+</div>
+
+
+   </header>
+
+<!-- header section ends -->
+
+<!-- search form -->
+<form action="" id="search-form">
+<input type="search" placeholder="search here..." name="" id="search-box">
+<label for="search-box" class="fas fa-search"></label>
+<i class="fas fa-times" id="close"></i>
+</form>
+<!-- search form ends -->
+
+<!-- home section starts -->
+<section class="home" id="home">
+    <div class="swiper  home-slider">
+<div class="swiper-wrapper wrapper">
+<div class="swiper-slide slide">
+    <div class="content">
+        <span>our special dish</span>
+        <h3>RASMALAI</h3>
+        <p>Rasmalai is a beloved dessert from India that consists of soft cheese dumplings soaked in a sweet, cardamom and saffron-infused milk syrup. It is known for its rich and creamy texture, and is often garnished with almonds or pistachios.</p>
+        <a href="#" class="btn">order now</a>
+    </div>
+    <div class="image">
+        <img src="https://www.palatesdesire.com/wp-content/uploads/2022/09/Rasmalai-recipe@palates-desire.jpg" alt="">
+    </div>
+</div>
+
+<div class="swiper-slide slide">
+    <div class="content">
+        <span>our special dish</span>
+        <h3>MALPUA RABADI</h3>
+        <p>Malpua is a traditional Indian pancake-like dessert made from flour, milk, and sugar. It is deep-fried to a crispy texture, soaked in syrup, and often flavored with cardamom or fennel. Delicious and indulgent!</p>
+        <a href="#" class="btn">order now</a>
+    </div>
+    <div class="image">
+        <img src="https://images.news18.com/ibnkhabar/uploads/2023/03/malpua-2.jpg"  alt="" style="height: 550px;">
+    </div>
+</div>
+<div class="swiper-slide slide">
+    <div class="content">
+        <span>our special dish</span>
+        <h3>FUDGE</h3>
+        <p>Fudge is a delectable confectionery made by boiling sugar, butter, and milk together to create a smooth, creamy consistency. It can be flavored with various ingredients like chocolate, nuts, or fruits, making it a popular treat with a rich and irresistible taste.
+        </p>
+        <a href="#" class="btn">order now</a>
+    </div>
+    <div class="image">
+        <img src="https://www.wholesomeyum.com/wp-content/uploads/2018/09/wholesomeyum-Sugar-Free-Keto-Fudge-17.jpg" alt="">
+    </div>
+</div>
+</div>
+<div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<!-- home section ends -->
+
+<!-- dishes section starts -->
+<section class="dishes" id="dishes">
+ <h3 class="sub-heading">our dishes</h3>
+ <h1 class="heading">popular dishes</h1>
+<div class="box-container">
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="https://veenaazmanov.com/wp-content/uploads/2017/07/Homemade-Chocolate-Ice-Cream-3.jpg" alt="">
+        <h3>ICECREAME</h3>
+        <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>$19</span>
+        <a href="add_to_cart.html" class="btn" onclick="add()">add to cart</a>
+    </div>
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBmk8O_VMc4Ab-vcC0JbpeOEjfMo9DB29a5A&usqp=CAU" alt="">
+        <h3>EDIBLE CEREAL</h3>
+        <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>$19</span>
+        <a href="add_to_cart.html" class="btn" onclick="add()">add to cart</a>
+    </div>
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="https://www.bigbasket.com/media/uploads/p/l/800435478_1-anand-sweets-and-savouries-holi-special-sweet-gujiya.jpg" alt="">
+        <h3>GUJIYA</h3>
+        <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>$19</span>
+        <a href="add_to_cart.html" class="btn" onclick="add()">add to cart</a>
+    </div>
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="https://www.zaykakatadka.com/wp-content/uploads/2017/03/IMG_20170301_223712-e1489567887341.jpg" alt="">
+        <h3>RABADI JALEBI</h3>
+        <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>$19</span>
+        <a href="add_to_cart.html" class="btn" onclick="add()">add to cart</a>
+    </div>
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC9QKO-0aqkuyCphNWFEyR4EviA5aEI7v5aA&usqp=CAU" alt="">
+        <h3>BROWNIE</h3>
+        <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>$19</span>
+        <a href="add_to_cart.html" class="btn" onclick="add()">add to cart</a>
+    </div>
+    <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41SoYL2PvlL.jpg" alt="">
+        <h3>RASBARI</h3>
+        <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>$19</span>
+        <a href="add_to_cart.html" class="btn" onclick="add()">add to cart</a>
+    </div>
+</div>
+
+
+</section>
+<!-- dishes section ends -->
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h3 class="sub-heading">about us</h3>
+    <h1 class="heading">why choose us?</h1>
+    <div class="row">
+        <div class="image">
+            <img src="https://img.freepik.com/free-photo/rabri-jalebi-imarati-with-rabdi-made-from-condensing-milk-famous-dessert-sweet-from-india_466689-71659.jpg?w=2000" alt="" style=" height:600px ; width:450px ">
+        </div>
+        <div class="content">
+            <h3>best food in the country</h3>
+            <p>Emarti Rabdi is a traditional dessert that originates from the Indian subcontinent. It is made by deep-frying a batter of flour and semolina into small, crispy discs known as "emartis" or "jalebis," and then soaking them in a sweet, cardamom-flavored milk syrup known as "rabdi." <br> <br> Emarti Rabdi is popular for several reasons. First, its unique combination of crispy emartis and creamy rabdi creates a delightful contrast in texture, making it a pleasure to eat. The sweet, aromatic milk syrup flavored with cardamom adds a rich and indulgent taste to the dish. Second, Emarti Rabdi is often associated with festive occasions and celebrations in the Indian subcontinent, making it a special treat that is enjoyed during auspicious events and gatherings. Its vibrant appearance, with its golden-hued emartis and creamy rabdi, also adds to its appeal. </p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>free delivery</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>easy payments</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 service</span>
+                </div>
+            </div>
+<a href="#" class="btn">learn more</a>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- about section ends -->
+
+<!-- menu section starts -->
+
+<section class="menu" id="menu">
+    <h3 class="sub-heading">our menu</h3>
+    <h1 class="heading">today's speciality</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="https://t4.ftcdn.net/jpg/05/89/70/33/360_F_589703360_LzRYd3zBsZ8xgTSekqAcfx7kJ1uBiFuE.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>pastry</h3>
+                <p>A pastry is a type of baked food that is made with a combination of flour, fat, and water, often filled with sweet or savory fillings.</p>
+                <a href="#" class="btn"> add to cart</a>
+                <span class="price">$12.99</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="https://bakeitwithlove.com/wp-content/uploads/2022/09/lemon-sugar-baked-donuts-sq.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Donuts</h3>
+                <p>Donuts are delicious fried or baked pastries, often coated with glaze or powdered sugar, and enjoyed as a popular treat. </p>
+                <a href="#" class="btn"> add to cart</a>
+                <span class="price">$12.99</span>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image">
+                <img src="https://www.bakingo.com/blog/wp-content/uploads/2020/05/delicious-desserts-that-reduce-stress.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Ice Creame</h3>
+                <p>Ice cream is a frozen dessert made from cream, sugar, and flavorings, enjoyed for its creamy, sweet, and refreshing taste.</p>
+                <a href="#" class="btn"> add to cart</a>
+                <span class="price">$12.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://i.pinimg.com/originals/85/70/0a/85700a4007f9a01968b9706a62003ae7.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Ghewar</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <a href="#" class="btn"> add to cart</a>
+                <span class="price">$12.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://cdn.tasteatlas.com//Images/Dishes/7be1f4cc4c6747868181dc95398df458.jpg?width=800&height=513" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Kaju barfi</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <a href="#" class="btn"> add to cart</a>
+                <span class="price">$12.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://www.ketofocus.com/wp-content/uploads/keto-mocha-1.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Cold Coffe</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn"> add to cart</a>
+                <span class="price">$12.99</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="https://static.toiimg.com/photo/52820530.cms" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Milk Cake</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <a href="#" class="btn"> add to cart</a>
+                <span class="price">$12.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://cookingfromheart.com/wp-content/uploads/2017/10/Mootichoor-Ladoo-5.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Mootichoor Laddo</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.  </p>
+                <a href="#" class="btn"> add to cart</a>
+                <span class="price">$12.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://vaya.in/recipes/wp-content/uploads/2018/02/Dharwad-Pedha.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Peda</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <a href="#" class="btn"> add to cart</a>
+                <span class="price">$12.99</span>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image">
+                <img src="https://realfood.tesco.com/media/images/RFO-1400x919-classic-chocolate-mousse-69ef9c9c-5bfb-4750-80e1-31aafbd80821-0-1400x919.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Chocolate Shake</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <a href="#" class="btn"> add to cart</a>
+                <span class="price">$12.99</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- menu section ends -->
+
+<!-- review section starts -->
+<section class="review" id="review">
+<h3 class="sub-heading">customer's review</h3>
+<h1 class="heading">what they say</h1>
+<div class="swiper-container review-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="https://www.investnational.com.au/wp-content/uploads/2016/08/person-stock-2.png" alt>
+<div class="user-info">
+<h3>john deo</h3> 
+<div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half"></i>
+</div>
+</div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus autem in enim nam, consequatur, facere eum ratione assumenda quos harum libero necessitatibus provident quia cupiditate? Sed eos voluptas repellendus non?</p>
+        </div>
+        <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="https://www.investnational.com.au/wp-content/uploads/2016/08/person-stock-2.png" alt>
+<div class="user-info">
+<h3>john deo</h3>
+<div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half"></i>
+</div>
+</div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus autem in enim nam, consequatur, facere eum ratione assumenda quos harum libero necessitatibus provident quia cupiditate? Sed eos voluptas repellendus non?</p>
+        </div>
+        <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="https://www.investnational.com.au/wp-content/uploads/2016/08/person-stock-2.png" alt>
+<div class="user-info">
+<h3>john deo</h3>
+<div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half"></i>
+</div>
+</div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus autem in enim nam, consequatur, facere eum ratione assumenda quos harum libero necessitatibus provident quia cupiditate? Sed eos voluptas repellendus non?</p>
+        </div>
+        <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+                <img src="https://www.investnational.com.au/wp-content/uploads/2016/08/person-stock-2.png" alt>
+<div class="user-info">
+<h3>john deo</h3>
+<div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half"></i>
+</div>
+</div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus autem in enim nam, consequatur, facere eum ratione assumenda quos harum libero necessitatibus provident quia cupiditate? Sed eos voluptas repellendus non?</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- review section ends -->
+
+<!-- order section  starts-->
+
+<section class="order" id="order">
+    <h3 class="sub-heading">order now</h3>
+    <h1 class="heading">free and fast</h1>
+    <form action="">
+        <div class="inputBox">
+            <div class="input">
+                <span>your name</span>
+                <input type="text" placeholder="Enter your name" id="name">
+            </div>
+            <div class="input">
+                <span>CONTACT</span>
+                <input type="text" placeholder="Enter your number" id="contact">
+            </div>
+            </div>
+            <div class="inputBox">
+            <div class="input">
+                <span>your order</span>
+                <input type="text" placeholder="Enter food name" id="order">
+            </div>
+            <div class="input">
+                <span>QUANTITY</span>
+                <input type="number" placeholder="No. of Items" id="quantity">
+            </div>
+            </div>
+            <div class="inputBox">
+            <div class="input">
+                <span>your address</span>
+                <textarea name="" placeholder="Enter your address" cols="30" rows="10" id="address"></textarea>
+            </div>
+            <div class="input">
+                <span>FEEDBACK</span>
+                <textarea name="" placeholder="Type.." cols="30" rows="10" id="feedback"></textarea>
+            </div>
+        </div>
+        <input type="submit" value="order now" class="btn" onclick="form()">
+    </form>
+
+
+
+
+</section>
+
+
+
+
+
+<!-- order section ends -->
+
+<!-- footer section starts -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">Delhi</a>
+            <a href="#">Uttar Pradesh</a>
+            <a href="#">Maharashtra</a>
+            <a href="#">Gujrat</a>
+            <a href="#">Kerla</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </div>
+
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="">+123-456-7890</a>
+            <a href="">+111-222-9870</a>
+            <a href="">juhi1092.be21@chitkarauniversity.edu.in</a>
+            <a href="">ayush1057.be21@chitkarauniversity.edu.in</a>
+            <a href="">anubhav1047.be21@chitkarauniversity.edu.in</a>
+            <a href="">gautam1074.be21@chitkarauniversity.edu.in</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">Linkedin</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- footer section ends -->
+
+
+
+<!-- loader part -->
+<!-- <div class="loader-container">
+    <img src="" alt="dubaduba">
+</div> -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custome js file -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
